@@ -3,7 +3,8 @@
 https://www.jb51.net/article/244331.htm
 
 
-前置测试访问域名：www.test.com/api/upload
+##### 前置测试访问域名：
+www.test.com/api/upload
 
 
 ## 1.location和proxy_pass都带/，则真实地址不带location匹配目录
