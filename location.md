@@ -88,6 +88,7 @@ location ``/api` `{``  ``proxy_pass http:``//127``.0.0.1:8080``/server``;``}
 
 
 ## 总结
-
+```
 1.proxy_pass代理地址端口后有目录(包括 / )，转发后地址：代理地址+访问URL目录部分去除location匹配目录 
 2.proxy_pass代理地址端口后无任何，转发后地址：代理地址+访问URL目录部
+```
