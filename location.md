@@ -7,7 +7,7 @@ https://www.jb51.net/article/244331.htm
 www.test.com/api/upload
 
 
-## 1.location和proxy_pass都带/，则真实地址不带location匹配目录
+## 1.location 带/ 和proxy_pass带/，则真实地址不带location匹配目录
 
 ```
 location ``/api/` `{``  ``proxy_pass http:``//127``.0.0.1:8080/;``}
@@ -37,7 +37,7 @@ location ``/api/` `{``  ``proxy_pass http:``//127``.0.0.1:8080;``}
 
 
 
-## 4.location和proxy_pass都不带/，则真实地址会带location匹配目录/api/
+## 4.location 不带/, proxy_pass不带/，则真实地址会带location匹配目录/api/
 
 ```
 location ``/api` `{``  ``proxy_pass http:``//127``.0.0.1:8080;``}
